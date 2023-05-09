@@ -37,7 +37,7 @@ export default function Vantagens(){
 
                 <section className={style.fourth}>
                     <div className={style.fourth_1}>
-                        <h2>Venha para a conta digital <span>MonBanks</span> , a conta que valoriza o seu dinheiro</h2>
+                        <h2>Venha para a conta digital <span>MonBanks</span>, a conta que valoriza o seu dinheiro</h2>
                         <p>Tudo o que você precisa de um banco em um só App.</p>
                     </div>
                     <div className={style.fourth_2}>
