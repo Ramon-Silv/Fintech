@@ -269,6 +269,12 @@
     align-items: flex-start;
     justify-content: center;
     border-radius: 40px;
+    transition: all .5s;
+}
+
+.fourth_2:hover{
+    transform: scale(1.04);
+    box-shadow: 10px 10px 50px rgb(66, 93, 138);
 }
 
 .fourth_2 img{
