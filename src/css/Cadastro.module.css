@@ -11,7 +11,7 @@
     background: linear-gradient(220deg, #ffffffd1 0%, rgba(239, 239, 239, 0.238) 96.9%);
     border-radius: 20px;
     width: 60%;
-    height: 130vh;
+    height: 137vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -88,12 +88,15 @@ form .aceito{
 }
 
 form .continue{
-    margin: 5%;
+    width: 100%;
+    margin: 5% 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-form input:last-child{
+.continue input{
     width: 40%;
     height: 20%;
     transition: all .5s;
@@ -101,7 +104,25 @@ form input:last-child{
     padding: 2%;
 }
 
-form input:last-child:hover{
+.continue input:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.continue p{
+    margin: 2.5%;
+    font-size: 1.1em;
+}
+
+.continue p span{
+    color: #37bc96;
+}
+
+.continue p span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.continue p a{
+    text-decoration: none;
 }

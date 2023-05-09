@@ -31,6 +31,7 @@ export default function Cadastro(){
                     </div>
                     <div className={style.continue}>
                         <input type="submit" value="Continuar" />
+                        <p>Pronto? Agora <a href="https://www.linkedin.com/in/ramon-silva-/"><span>Baixe o App</span></a></p>
                     </div>
                 </form>
             </section>
