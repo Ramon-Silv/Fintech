@@ -262,7 +262,7 @@
 }
 
 .fourth_2{
-    background: linear-gradient(125deg, #3563b32f, #01c38c87);
+    background: linear-gradient(125deg, rgba(53, 99, 179, 0.184), rgba(1, 195, 140, 0.529));
     width: 40%;
     height: 90%;
     display: flex;

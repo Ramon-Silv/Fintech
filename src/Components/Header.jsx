@@ -13,7 +13,6 @@ export default function Header(){
                     <ul className={style.list_centro}>
                         <Link to='/' className={style.link}><li>Início</li></Link>
                         <Link to='/Vantagens' className={style.link}><li>Vantagens</li></Link>
-                        <Link to='/Duvidas' className={style.link}><li>Dúvidas</li></Link>
                     </ul>
                     <ul className={style.list_direita}>
                         <Link to='/Login'><button className={style.login}>Login</button></Link>

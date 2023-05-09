@@ -2,7 +2,6 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Header from './Components/Header';
 import Home from './Components/Home';
 import Vantagens from './Components/Vantagens';
-import Duvidas from './Components/Duvidas';
 import Footer from './Components/Footer';
 import Login from './Components/Login';
 import Cadastro from './Components/Cadastro';
@@ -18,7 +17,6 @@ function App() {
               <Routes>
                   <Route path='/' element={<Home/>}/>
                   <Route path='/Vantagens' element={<Vantagens/>}/>
-                  <Route path='/Duvidas' element={<Duvidas/>}/>
                   <Route path='/Login' element={<Login/>}/>
                   <Route path='/Cadastro' element={<Cadastro/>}/>
               </Routes>
