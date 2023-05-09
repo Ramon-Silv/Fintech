@@ -1,0 +1,319 @@
+.container{
+    background-color: rgba(245, 245, 245, 0.597);
+}
+
+.first{
+    background-color: #ffffff;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25% 5% 22% 5%;
+}
+
+.first h1{
+    font-size: 3.5em;
+    font-weight: 600;
+    padding-bottom: 3%;
+    background: linear-gradient(72deg, rgb(8, 25, 53) 10%, rgb(66, 93, 138) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.first h1 span{
+    background: linear-gradient(72deg, rgb(66, 93, 138) 10%, rgb(8, 25, 53) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.first ul{
+    list-style: none;
+}
+
+.first ul li{
+    font-size: 1.5em;
+    padding: 2% 0;
+}
+
+.div_texto button, .texto_third button{
+    background: linear-gradient(90deg, #01c38d, #5ebea3);
+    color: #fff;
+    border: none;
+    width: 14vw;
+    padding: 1%;
+    margin: 5% 0 0 0;
+    font-size: 1.2em;
+    border-radius: 10px;   
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.div_texto button:hover, .texto_third button:hover{
+    transform: translateY(-5px);
+    box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.6);
+}
+
+.first img{
+    width: 45%;
+    animation: anima 10s infinite;
+}
+
+@keyframes anima {
+    0%{transform: rotate(1deg);}
+    50%{transform: rotate(-1deg);}
+    100%{transform: rotate(1deg);}
+}
+
+.second{
+    width: 100%;
+    height: 80vh;
+    padding: 4.5%;
+    margin: 2.5% 0 1% 0;
+}
+
+.second .escolha_melhor{
+    width: 100%;
+}
+
+.escolha_melhor h2{
+    font-size: 2em;
+}
+
+.escolha_melhor span{
+    font-size: 1.4em;
+    color: #0a1b37;
+}
+
+.second .cards{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards .card{
+    width: 32%;
+    height: 70%;
+    background: linear-gradient(124.02deg, #ffffff 0%, rgba(239, 239, 239, 0) 96.9%);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(10, 27, 55, 0.237);
+    padding: 1.13%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all .5s;
+}
+
+.cards .card:first-child:hover{
+    transform: rotate(-0.7deg) scale(1.035);
+    box-shadow: 5px 5px 20px #37bc96;
+}
+
+.cards .card:nth-child(2):hover{
+    transform: scale(1.035);
+    box-shadow: 5px 5px 20px #37bc96;
+}
+
+.cards .card:last-child:hover{
+    transform: rotate(0.7deg) scale(1.035);
+    box-shadow: 5px 5px 20px #37bc96;
+}
+
+.card .icons{
+    width: 20%;
+    height: 20%;
+    padding: 1%;
+    color: #0d2346;
+    margin-left: -5%;
+}
+
+.card img{
+    width: 12%;
+    padding: 1%;
+}
+
+.card span{
+    font-size: 1.6em;
+    padding: 2% 0;
+}
+
+.card p{
+    font-size: 1.25em;
+    padding: 2% 0;
+}
+
+.third{
+    background: linear-gradient(275deg, #3563b3 30%,  #37bc96 70%);
+    width: 100%;
+    height: 80vh;
+    padding: 2%;
+    transform: skewY(-2deg);
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.containerCarta{
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.carta {
+    height: 115%;
+    position: absolute;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.third:hover .carta:first-child {
+    transform: translateX(100px) rotate(10deg);
+}
+  
+.third:hover .carta:nth-child(2) {
+    transform: translateX(30px) rotate(10deg);
+}
+  
+.third:hover .carta:nth-child(3) {
+    transform: translateX(-30px) rotate(15deg);
+}
+  
+.third:hover .carta:last-child {
+    transform: translateX(-100px) rotate(20deg);
+}
+  
+.texto_third{
+    transform: skewY(2deg);
+    width: 50%;
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+} 
+
+.texto_third h2{
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: 100;
+    margin: 2% 0;
+}
+
+.texto_third span{
+    color: #0d2346;
+    font-weight: 800;
+}
+
+.texto_third p{
+    font-size: 1.2em;
+    padding: 2.5% 0;
+}
+
+.texto_third p:nth-child(3){
+    padding: 0;
+}
+
+.texto_third button{
+    color: #0a1b37;
+    background: linear-gradient(90deg, #ffffff 0%, rgba(239, 239, 239, 0.255) 96.9%);
+    backdrop-filter: blur(10px);
+    margin: 0;
+}
+
+.fourth{
+    width: 100%;
+    height: 80vh;
+    margin-bottom: 3%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourth_1{
+    width: 50%;
+    height: 100%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth_1 span{
+    background: linear-gradient(45deg, rgb(66, 93, 138) 10%, rgb(8, 25, 53) 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+.fourth_1 h2{
+    font-size: 3em;
+    font-weight: 400;
+}
+
+.fourth_1 p{
+    font-size: 1.5em;
+    margin: 2% 0;
+}
+
+.fourth_2{
+    background: linear-gradient(125deg, #3563b32f, #01c38c87);
+    width: 40%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.fourth_2 img{
+    width: 80%;
+}
+
+.fifth{
+    width: 100%;
+    height: 80vh;
+    margin-top: 3%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../img/app-circle2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #0a1b37;
+}
+
+.fifth h2{
+    font-size: 2.7em;
+    margin: 1% 0;
+}
+
+.fifth p{
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+
+.fifth button{
+    border: none;
+    font-size: 1.2em;
+    width: 150%;
+    height: 140%;
+    padding: 2%;
+    border-radius: 10px;
+    color: #ffffff;
+    background: linear-gradient(90deg, #01c38d, #5ebea3);
+    cursor: pointer;
+    transition: all .5s;
+    transform: translate(-17%, 0);
+}
+
+.fifth button:hover{
+    box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.6);
+}

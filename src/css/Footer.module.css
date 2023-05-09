@@ -1,0 +1,90 @@
+footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #0a1b37;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5%;
+    color: #fff;
+}
+
+.Logo{
+    width: 110%;
+    margin-left: -15%;
+}
+
+footer .plataforma{
+    display: flex;
+    justify-content: space-around;
+    height: 85%;
+    padding: 0.5%;
+}
+
+.plataforma1 span{
+    font-size: 1.7em;
+}
+
+.plataforma1 ul{
+    list-style: none;
+}
+
+.plataforma1 ul li:hover{
+    text-decoration: underline #fff;
+    cursor: pointer;
+}
+
+.plataforma1 ul li{
+    padding: 3% 0;
+}
+
+footer .direitos{
+    padding: 0 0 0 2.7%;
+    width: 25%;
+}
+
+.direitos p{
+    width: 100%;
+}
+
+.icons_container{
+    color: #ffffff;
+    font-size: 1.2em;
+    margin: 2.5%;
+}
+
+.icons_container:hover{
+    color: #01c38c;
+}
+
+.redes{
+    font-size: 1.8em;
+}
+
+.redes span{
+    font-size: 1em;
+}
+
+.termos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+.termos hr{
+    width: 95%;
+    margin: 0.6%;
+    border: 1px solid #ffffff;
+}
+
+.termos ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.termos li:hover{
+    cursor: pointer;
+    color: rgb(188, 188, 188);
+}
