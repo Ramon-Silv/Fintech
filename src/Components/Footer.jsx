@@ -18,7 +18,7 @@ export default function Footer(){
                                 <li>Conta Digital</li>
                                 <li>Cartão</li>
                                 <li>Baixe o App</li>
-                                <li>Mon Banks</li>
+                                <li>MonBanks</li>
                                 <li>Dúvidas</li>
                             </ul>
                     </div>
